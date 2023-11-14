@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delivery Services</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<style>
+    div.DELIVERYSERVICES{
+        font-size: 28px;
+        background-color: lightseagreen;
+        color: white;}
+    div.TEXT{
+        font-family: "Bodoni MT Black";
+        font-size: 30px;
+    }
+    div.MOTTO{
+        color: black;
+        font-size: 50px;
+    }
+</style>
+<body>
+<div class="MOTTO"><h1 >TOMATO RESTARAUNT AND CATERING SERVICES</h1>
+    <img src="Images/Tomato.png" alt="">
+    <i>our pride is your satisfaction</i>
+</div>
+<div class="TEXT">
+<p>In order to be able to order food from our restaraunt you will be required to create an account with us
+or if you have account you will be required to login into your accont and enjoy food from the comfort
+of your home</p>
+</div>
+<br>
+<br>
+<div class="container py-5 bg-primary">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center mb-4 text-white">Please login into your account</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+
+                    <!--form crd login begins-->
+                    <div class="card rounded-0">
+
+                        <div class="card header">
+                            <h3>User Login</h3>
+                        </div>
+                        <br>
+                        <div class="card body">
+                            <form action="#">
+                                <div class="form group">
+                                    <label for="username">Username</label>
+                                    <input type="text" name="username" id="username" class="form control form-control-lg rounded-0" value="eg.paulg@gmail.com">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="Password"id="password"name="password"class="form-control-lg rounded-0" value="*********">
+
+                                </div>
+                                <div>
+                                    <label class="custom-control custom-checkbox"></label>
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control"></span>
+                                    <span class="custom-control-label small">Remember me</span>
+
+                                </div>
+                                <button type="submit" class="btn btn-success btn-lg float-right">Submit</button>
+                            </form>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+<br><br>
+<div id="Services" align="left" class="DELIVERYSERVICES">
+    <h2>CREATE AN ACCOUNT WITH US</h2>
+    <form action="#">
+        First: <input type="text" name="Firstname"value="Enter your first name"class="col-sm-4">
+        <br>
+        <br>
+        Last :<input type="text" name="Lastname"value="Enter your last name"class="col-sm-4">
+        <br>
+        <br>
+        Email :<input type="Email" name="Email"value="example@gmail.com"class="col-sm-4">
+        <br>
+        <br>
+        Gender: <input type="radio"name="gender" value="male" >Male
+        : <input type="radio"name="gender" value="female" >female-
+        <br>
+        <br>
+         Create a password 6 to 8 characters long:<input type="text" value="********"class="col-sm-4">
+        <br>
+        <br>
+        Create a username:<input type="text"value="egpaulg@gmail.com" class="col-sm-4">
+        <br>
+        <br>
+        TYPE OF FOOD: <input type="checkbox" name="The kind of food you would you like" value="">
+        <input type="checkbox" name="food" value="BEVERAGES"> BEVERAGES
+        <input type="checkbox" name="food" value="ITALIAN"> ITALIAN
+        <input type="checkbox" name="food" value="CHINESE"> CHINESE
+        <input type="checkbox" name="food" value="KENYAN"> KENYAN
+        <input type="checkbox" name="food" value="AMERICAN">AMERICAN
+        <br><br>
+        PLEASE FILL IN YOUR NUMBER
+        <input type="Number" name="Phone number" value="07********"class="col-sm-4"> <br><br
+        <form>
+            <label for="county">County</label>
+            <select name="county" id="county">
+                <option value="NAIROBI">NAIROBI</option>
+                <option value="KIAMBU">KIAMBU</option>
+                <option value="HOMABAY">HOMABAY</option>
+                <option value="NAKURU">NAKURU</option>
+                <option value="NYAHURURU">NYAHURURU</option>
+                <option value="KISUMU">KISUMU</option>
+                <option value="BUSIA">BUSIA</option>
+            </select>
+            <br>
+            <br>
+            What kind of food would you like:<input type="text" value=" eg pizza">
+            <br>
+            The size of the food:<input type="text" value=" eg large">
+            <br>
+            Destination:<input type="text" value="eg 17 street Muranga lane Nairobi"class="col-sm-8">
+            <br>
+            House number:<input type="text" value="eg @prudential house 301"class="col-sm-8">
+            <br>
+            Any other specific detail:<input type="text"class="col-sm-8">
+            <br>
+            <br>
+            Any other thing<input type="text" value="eg Smoothie and fries" class="col-sm-8">
+            <br>
+            The size of the beverage:<input type="text" value=" eg Medium">
+            <br>
+            Hom many beverages would you like:<input type="number" value="eg TWO"class="col-sm-2">
+            <br>
+</div>
+<div class="TEXT">
+    <i>The delivery service is free and will be  done within the first 20minutes after order.If not delivered call
+        the hotline number +254703172772 </i>
+</div>
+
+</form>
+</body>
+</html>
